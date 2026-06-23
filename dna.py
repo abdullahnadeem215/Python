@@ -1,4 +1,4 @@
-n = int(input("Enter the no. of DNA: "))
+n = int(input(""))
 
 dna = {
     "A":"T",
