@@ -2,7 +2,12 @@ t = int(input())
 
 for _ in range(t):
 
-    absent, n = input().split()
+    line = input().strip()
+
+    while line == "":
+        line = input().strip()
+
+    absent, n = line.split()
     n = int(n)
 
     all_students = {absent}
